@@ -6,7 +6,7 @@ class Toad < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/benabernathy/toad-cli/releases/download/v0.1.0/toad-cli-v0.1.0-aarch64-apple-darwin.tar.gz"
+      url "https://github.com/benabernathy/toad-cli/releases/download/v0.1.0/toad-v0.1.0-aarch64-apple-darwin.tar.gz"
       sha256 "1cc30e3638fdc59c8fa323a930fb87ce439333280a13c1a136f1e4b21aab26e3"
     end
     on_intel do
