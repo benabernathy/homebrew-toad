@@ -2,27 +2,27 @@ class Toad < Formula
   desc "A developer-friendly REST client"
   homepage "https://github.com/benabernathy/toad-cli"
   license "MIT"
-  version "0.4.0"
+  version "0.5.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/benabernathy/toad-cli/releases/download/v0.4.0/toad-v0.4.0-aarch64-apple-darwin.tar.gz"
-      sha256 "6041fd9eada576c6b2e73c96e234015ec148cab63e8395d3292a9d5c2d8d1a9b"
+      url "https://github.com/benabernathy/toad-cli/releases/download/v0.5.0/toad-v0.5.0-aarch64-apple-darwin.tar.gz"
+      sha256 "7fb27d8a81d796e59b59e35dd6a77fe86b136f9fc4bc98a13d1feb3a9c2a91cf"
     end
     on_intel do
-      url "https://github.com/benabernathy/toad-cli/releases/download/v0.4.0/toad-v0.4.0-x86_64-apple-darwin.tar.gz"
-      sha256 "eb0b38a865389f9bfb14153102c4a8f1a0d208bb356cb2c0b9a5538c903678d3"
+      url "https://github.com/benabernathy/toad-cli/releases/download/v0.5.0/toad-v0.5.0-x86_64-apple-darwin.tar.gz"
+      sha256 "cb31028bf5a253c41ec14f32c454e928872e0f1c2bbff11a1d71d371b081d21d"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/benabernathy/toad-cli/releases/download/v0.4.0/toad-v0.4.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "372790a401d268530f356ad72bce98458fa7e3e75b7f195b8c52ab3bfa6c49f7"
+      url "https://github.com/benabernathy/toad-cli/releases/download/v0.5.0/toad-v0.5.0-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "8b40ecccd6e91001e83d6828c5190d0f1461112bde51635d87d7528880b79ba3"
     end
     on_intel do
-      url "https://github.com/benabernathy/toad-cli/releases/download/v0.4.0/toad-v0.4.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "a6a9bc6b15f2afede5470e432d2f6336532126c37bf3973f68f2c5b7c3601d0a"
+      url "https://github.com/benabernathy/toad-cli/releases/download/v0.5.0/toad-v0.5.0-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "3a24c934585f28f85a4a2167a7b6af0dff497d3b180a0ac560000175bc156472"
     end
   end
 
